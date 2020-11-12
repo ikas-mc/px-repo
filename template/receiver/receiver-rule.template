@@ -1,0 +1,5 @@
+receivers = [
+{% for receiver in receivers %}
+  {name = "{{receiver.name}}", allow = {{receiver.allow}}, enabled = {{receiver.enabled}} }
+{% endfor %}
+]

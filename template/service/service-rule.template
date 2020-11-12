@@ -1,0 +1,5 @@
+services = [
+{% for service in services %}
+  {name = "{{service.name}}", allow = {{service.allow}}, enabled = {{service.enabled}} }
+{% endfor %}
+]
