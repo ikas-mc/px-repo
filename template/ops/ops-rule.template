@@ -1,0 +1,5 @@
+ops = [
+{% for op in ops %}
+  {name = {{op.name}}, mode = {{op.mode}} }
+{% endfor %}
+]
