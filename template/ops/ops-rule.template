@@ -1,3 +1,11 @@
+# 
+# project-x 2020
+# 
+
+desc = "ops rule"
+author = "projectx app"
+version = 1
+
 ops = [
 {% for op in ops %}
 {% if op.checked %}
