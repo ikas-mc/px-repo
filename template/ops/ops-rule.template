@@ -1,5 +1,8 @@
 ops = [
 {% for op in ops %}
+{% if op.checked %}
+  #{{op.label}}
   {name = {{op.name}}, mode = {{op.mode}} }
+{% endif %}
 {% endfor %}
 ]
