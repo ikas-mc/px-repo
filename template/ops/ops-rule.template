@@ -2,7 +2,8 @@ ops = [
 {% for op in ops %}
 {% if op.checked %}
   #{{op.label}}
-  {name = {{op.name}}, mode = {{op.mode}} }
+  
+  {name = {{op.name}}, mode = {{op.modeName}}, mode = {{op.modeName}}, {{ op.allow ? "" : "ruleMode = ignore" }} }
 {% endif %}
 {% endfor %}
 ]
