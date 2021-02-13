@@ -1,12 +1,11 @@
-# project-x repo
+# Rule Repo For Invalid App 
 
 
-
-## ops与应用组件描述
+## AppOp与组件描述
 
 [description](https://github.com/ikas-mc/px-repo/tree/master/description)
 
-## ops与应用组件规则
+## AppOp与组件规则
 
 [rule](https://github.com/ikas-mc/px-repo/tree/master/rule)
 
@@ -14,5 +13,6 @@
 
 `xxx.xxx.conf,xxx.xxx-x.conf 其中xxx.xxx为应用ID,仅匹配该ID应用`
 
+## 导出模板
 
-
+[template](https://github.com/ikas-mc/px-repo/tree/master/template)
