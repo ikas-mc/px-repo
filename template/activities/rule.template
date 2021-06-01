@@ -1,0 +1,5 @@
+receivers = [
+{% for activity in activities %}
+  {name = "{{activity.name}}", allow = {{activity.allow}}, enabled = {{activity.enabled}} }
+{% endfor %}
+]

@@ -1,0 +1,5 @@
+receivers = [
+{% for provider in providers %}
+  {name = "{{provider.name}}", allow = {{provider.allow}}, enabled = {{provider.enabled}} }
+{% endfor %}
+]
