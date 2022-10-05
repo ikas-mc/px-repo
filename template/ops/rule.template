@@ -11,7 +11,7 @@ ops = [
 {% if op.checked %}
   #{{op.label}}
   
-  {name = {{op.name}}, mode = {{op.modeName}} {{ op.allow ? "" : ", ruleMode = ignore" }} }
+  {name = {{op.name}}, mode = {{op.modeName}} , group = {{op.group}} }
 {% endif %}
 {% endfor %}
 ]
